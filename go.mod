@@ -372,11 +372,11 @@ require (
 
 replace (
 	github.com/confio/ics23/go => github.com/cosmos/cosmos-sdk/ics23/go v0.8.0 // dragonberry security patch
-	github.com/cosmos/cosmos-sdk => github.com/b-harvest/cosmos-sdk-rollkit-mid-block v0.45.16-rollkit-v0.9.0-no-fraud-proofs.0.20230711184641-b8d339c58e15
+	github.com/cosmos/cosmos-sdk => github.com/b-harvest/cosmos-sdk-rollkit-mid-block v0.45.16-rollkit-v0.9.0-no-fraud-proofs.0.20230711200006-ec2d16f577bf
 	github.com/cosmos/ibc-go/v3 => github.com/crescent-network/ibc-go/v3 v3.4.0-crescent-v4-3 // huckleberry security patch
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	github.com/rollkit/rollkit v0.9.0 => github.com/b-harvest/rollkit-mid-block v0.9.1-0.20230711184442-ba23085a6706
-	github.com/tendermint/tendermint => github.com/b-harvest/cometbft-rollkit-mid-block v0.0.0-20230711184120-445f7006ee55
+	github.com/rollkit/rollkit v0.9.0 => github.com/b-harvest/rollkit-mid-block v0.9.1-0.20230711195850-f67f228c5729
+	github.com/tendermint/tendermint => github.com/b-harvest/cometbft-rollkit-mid-block v0.0.0-20230711195619-9d3947731146
 	// github.com/keybase/go-keychain => github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 )
